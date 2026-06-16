@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>📸 Modern Image Gallery</h1>
+
+    <div class="gallery">
+
+        <div class="card">
+            <img src="https://picsum.photos/id/1015/500/350" alt="Mountain" onclick="openLightbox(0)">
+            <div class="caption">Beautiful Mountains</div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/id/1016/500/350" alt="Forest" onclick="openLightbox(1)">
+            <div class="caption">Forest Adventure</div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/id/1018/500/350" alt="Lake" onclick="openLightbox(2)">
+            <div class="caption">Nature Lake</div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/id/1020/500/350" alt="Valley" onclick="openLightbox(3)">
+            <div class="caption">Green Valley</div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/id/1024/500/350" alt="Animal" onclick="openLightbox(4)">
+            <div class="caption">Cute Animal</div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/id/1025/500/350" alt="Landscape" onclick="openLightbox(5)">
+            <div class="caption">Amazing Landscape</div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/id/1035/500/350" alt="Beach" onclick="openLightbox(6)">
+            <div class="caption">Sunny Beach</div>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/id/1043/500/350" alt="River" onclick="openLightbox(7)">
+            <div class="caption">Peaceful River</div>
+        </div>
+
+    </div>
+
+    <div id="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+
+        <button class="prev" onclick="changeImage(-1)">❮</button>
+
+        <img id="lightbox-img" src="" alt="Preview">
+
+        <button class="next" onclick="changeImage(1)">❯</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
