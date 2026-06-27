@@ -153,21 +153,7 @@ The following features can be added in future versions:
 * Image Upload Feature
 * Image Sharing Options
 
----
-
-## 📸 Project Screenshots
-
-Add screenshots of your project here after uploading to GitHub.
-
-Example:
-
-screenshots/homepage.png
-
-screenshots/lightbox.png
-
-screenshots/mobile-view.png
-
----
+-
 
 ## 🎓 Internship Information
 
